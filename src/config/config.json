@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "example",
+    "password": "password",
+    "database": "dbexample",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "example",
+    "password": "password",
+    "database": "dbexample_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "example",
+    "password": "password",
+    "database": "dbexample_prod",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  }
+}

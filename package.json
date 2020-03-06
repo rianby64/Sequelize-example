@@ -1,0 +1,30 @@
+{
+  "name": "sequelize-in-ts-example",
+  "version": "1.0.0",
+  "description": "An example for Marina",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/bluebird": "^3.5.30",
+    "@types/node": "^13.7.7",
+    "@types/sequelize": "^4.28.8",
+    "@types/validator": "^12.0.1",
+    "jest": "^25.1.0",
+    "pg": "^7.18.2",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.5",
+    "sequelize-cli": "^5.5.1",
+    "ts-jest": "^25.2.1",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "test": "jest --watchAll --detectOpenHandles",
+    "start": "tsc"
+  },
+  "author": "Andres Rios <rianby64@gmail.com>",
+  "license": "ISC",
+  "jest": {
+    "verbose": true,
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  }
+}
