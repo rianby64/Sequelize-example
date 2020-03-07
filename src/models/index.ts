@@ -6,7 +6,14 @@ import configs from '../config/config.json'; // believe me - this is a bad optio
 const env = (process.env.NODE_ENV as 'development' | 'production' | 'test') || 'development';
 const config = configs[env];
 
-const sequelize = new Sequelize(config.database, config.username, config.password);
+const sequelize = new Sequelize(
+  config.database,
+  config.username,
+  config.password,
+  {
+    dialect: 'postgres',
+  }
+);
 
 const users = Users(sequelize);
 
